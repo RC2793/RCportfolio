@@ -6,12 +6,12 @@
   width: 100%;
   height: 100%; }
 
-#main-header .port-item {
+.port-item {
   width: 30%; }
-  #main-header .port-item .fa {
+  .port-item .fa {
     font-size: 2em; }
 
-#main-header .port-item:hover {
+.port-item:hover {
   opacity: 0.8;
   cursor: pointer; }
 
