@@ -50,22 +50,6 @@ h3, h2 {
     width: 60%;
     margin: 0 25%; }
 
-#projects h3:after {
-  display: block;
-  height: 2px;
-  background-color: #007bff;
-  content: " ";
-  width: 152px;
-  margin: 10px 0; }
-
-#contact h3:after {
-  display: block;
-  height: 2px;
-  background-color: #007bff;
-  content: " ";
-  width: 152px;
-  margin: 10px 0; }
-
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important; } }
