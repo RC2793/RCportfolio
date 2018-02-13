@@ -2,18 +2,69 @@
   background: #000;
   color: #fff; }
 
+h3, h2 {
+  font-weight: 300; }
+
 #main-header img {
   width: 100%;
   height: 100%; }
 
-.port-item {
-  width: 30%; }
-  .port-item .fa {
+#main-header .c-row-header {
+  height: 17em; }
+
+#main-header .d-flex {
+  height: 100%; }
+
+#main-header .port-item {
+  width: 30%;
+  padding: 1.5em !important; }
+  #main-header .port-item .fa {
     font-size: 2em; }
 
-.port-item:hover {
+#main-header .port-item:hover {
   opacity: 0.8;
   cursor: pointer; }
+
+#home h3:after {
+  display: block;
+  height: 2px;
+  background-color: #007bff;
+  content: " ";
+  width: 152px;
+  margin: 10px 0; }
+
+#skills h3:after {
+  display: block;
+  height: 2px;
+  background-color: #007bff;
+  content: " ";
+  width: 152px;
+  margin: 10px 0; }
+
+#skills .port-item {
+  width: 100%; }
+  #skills .port-item .c-icon {
+    font-size: 5em; }
+  #skills .port-item .icon-img {
+    height: 60%;
+    width: 60%;
+    margin: 0 25%; }
+
+#projects h3:after {
+  display: block;
+  height: 2px;
+  background-color: #007bff;
+  content: " ";
+  width: 152px;
+  margin: 10px 0; }
+
+#contact h3:after {
+  display: block;
+  height: 2px;
+  background-color: #007bff;
+  content: " ";
+  width: 152px;
+  margin: 10px 0; }
 
 @media (min-width: 1199px) {
   .port-item {

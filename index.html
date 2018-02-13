@@ -3,7 +3,9 @@
     <head>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!--        <link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Rahul Chougule</title>
@@ -12,41 +14,47 @@
     <body>
         <div class="container">
             <header id="main-header">
-                <div class="row no-gutters">
-                    <div class="col-lg-4 col-md-5">
+                <div class="row no-gutters c-row-header">
+                    <div class="col-lg-3 col-md-5">
                         <img src="img/Profile.jpeg" alt="">
                     </div>
-                    <div class="col-lg-8 col-md-7">
+                    <div class="col-lg-9 col-md-7">
                         <div class="d-flex flex-column">
-                            <div class="p-5 bg-dark text-white">
-                                <div class="name d-flex flex-row justify-content-between align-items-center">
-                                    <h1 class="display-4">Rahul Chougule</h1>
-                                    <div><i class="fa fa-facebook"></i></div>
-                                    <div><i class="fa fa-twitter"></i></div>
-                                    <div><i class="fa fa-instagram"></i></div>
-                                    <div><i class="fa fa-github"></i></div>
-                                </div> 
+                            <div class=" p-4 bg-dark text-white c-row">
+                                <div class="row">
+                                    <div class="col-lg-8 ">
+                                        <h1 class="display-4">Rahul Chougule</h1>
+                                    </div>
+
+                                    <div class="col-lg-4 d-flex flex-row   justify-content-between align-items-center">
+
+                                        <div><a href="https://www.facebook.com/rahul.chougule.505" target="_blank"><i  class="fab fa-facebook-f"></i></a></div>
+                                        <div><a href="https://www.linkedin.com/in/rc2793/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+                                        <div><a href="https://github.com/RC2793" target="_blank"><i class="fab fa-github"></i></a></div>
+                                    </div> 
+                                </div>
+
                             </div>
-                            <div class="p-4 bg-black">
+                            <div class="p-3 bg-black">
                                 Java Developer (Fresher)
                             </div>
 
-                            <div>
-                                <div class="d-flex flex-row text-white align-items-stretch text-center">
-                                    <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
-                                        <i class="fa fa-home d-block"></i>Home
-                                    </div>
-                                    <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
-                                        <i class="fa fa-graduation-cap d-block"></i>Resume
-                                    </div>
-                                    <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
-                                        <i class="fa fa-folder-open d-block"></i>Work
-                                    </div>
-                                    <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
-                                        <i class="fa fa-envelope d-block"></i>Contact
-                                    </div>
+
+                            <div class="d-flex flex-row text-white ">
+                                <div class="port-item  bg-primary text-center " data-toggle="collapse" data-target="#home">
+                                    <i class="fa fa-home d-block"></i>Home
+                                </div>
+                                <div class="port-item  bg-success  text-center " data-toggle="collapse" data-target="#skills">
+                                    <i class="fa fa-code d-block"></i>Skills
+                                </div>
+                                <div class="port-item  bg-warning  text-center " data-toggle="collapse" data-target="#projects">
+                                    <i class="fa fa-folder-open d-block"></i>Projects
+                                </div>
+                                <div class="port-item  bg-danger text-center " data-toggle="collapse" data-target="#contact">
+                                    <i class="fa fa-envelope d-block"></i>Contact
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -55,131 +63,323 @@
 
 
             <div id="home" class="collapse show">
-                <div class="card card-body bg-primary text-white py-5">
-                    <h2>Welcome To My Portfolio</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, molestias.</p>
+                <div class="card card-body bg-primary text-white py-4">
+                    <h2>Hello! &nbsp; Welcome To My Portfolio</h2>
                 </div>
                 <div class="card card-body py-5">
-                    <h3>My Skills</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, deleniti!</p>
-                    <hr>
-                    <h4>HTML</h4>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" style="width: 100%"></div>
-                    </div>
-                    <h4>JAVA</h4>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" style="width: 70%"></div>
-                    </div>
-                    <h4>HTML</h4>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" style="width: 100%"></div>
-                    </div>
-                    <h4>CSS</h4>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-success" style="width: 50%"></div>
-                    </div>
+                    <h3>About Myself</h3>
+                    <p> <i class="fa fa-user"></i> &nbsp; My name is Rahul M Chougule. A Java Developer fresher.</p>
+                    <p><i class="fa fa-graduation-cap"></i>&nbsp; B.E (Electronics and Communication) graduate from STJ Institute of Technology (VTU), Ranebennur.</p>
+                    <p><i class="fa fa-cogs"></i>&nbsp; Took 8 months Java training from Jspiders Training and Development Center Bangalore, where I got training on Core Java, J2EE, Web Technologies and Frameworks.</p>
+                    <p><i class="fa fa-map-marker-alt"></i>&nbsp; Location: Bengaluru.</p>
+
+
 
                 </div>
             </div>
 
-            <!----RESUME----->
+            <!----SKILLS----->
 
-            <div id="resume" class="collapse">
-                <div class="card card-body bg-success text-white py-5">
-                    <h2>My Resume</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, maiores.</p>
+            <div id="skills" class="collapse">
+                <div class="card card-body bg-success text-white py-4">
+                    <h2>My Skills</h2>
+                    <p>Always improving and adding more skills to my life.</p>
                 </div>
                 <div class="card card-body py-5">
-                    <h3>Where have I worked?</h3>
+
+                    <h3>What technical skills do I have?</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, iusto!</p>
+                    <div class="card border-success mb-3 ">
+                        <div class="card-header"><i class="fa fa-code"></i><h4 class="d-inline"> Primary Skill </h4><span class="badge badge-secondary">[ Level: Beginner ]</span></div>
+                        <div class="card-body text-white p-0">
+                            <div class="d-flex flex-row align-content-stretch">
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-java-plain d-block c-icon"></i>Core Java
+                                </div>
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-mysql-plain d-block  c-icon"></i>SQL
+                                </div>
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <img src="img/spring.png" class="icon-img d-block">Spring
+                                </div>
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <img src="img/hibernate.png" class="icon-img d-block">Hibernate
+                                </div>
+
+                            </div>
+                            <div class="d-flex flex-row align-content-stretch">
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-html5-plain d-block c-icon"></i>HTML5
+                                </div>
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-css3-plain d-block c-icon"></i>CSS3
+                                </div>
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-java-plain d-block c-icon"></i>J2EE
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-header"><i class="fa fa-code"></i><h4 class="d-inline"> Secondary Skill </h4><span class="badge badge-secondary">[ Level: Beginner ]</span></div>
+                        <div class="card-body text-white p-0">
+                            <div class="d-flex flex-row align-content-stretch">
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-javascript-plain d-block c-icon"></i>JavaScript
+                                </div>
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-bootstrap-plain d-block  c-icon"></i>BootStrap 4
+                                </div>
+                                <div class="port-item  bg-dark text-center m-1">
+                                    <i class="devicon-jquery-plain d-block  c-icon"></i>JQuery
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!-----------PROJECTS--------------->
+
+            <div id="projects" class="collapse">
+                <div class="card card-body bg-warning text-white py-4">
+                    <h2>My Projects</h2>
+                    <p>Not just theoratical, I know how to build.</p>
+                </div>
+                <div class="card card-body py-5 bg-light">
+                    <h3>What projects have I done?</h3>
+                    <p>All the projects I have built is to learn the technologies.</p>
                     <div class="card-deck">
-                        <div class="card">
+                        <div class="card ">
+                            <img class="card-img-top img-fluid" src="img/UserManagment.PNG" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title">DevMasters</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, ducimus?</p>
-                                <p class="p-2 mb-3 bg-dark text-white">
-                                    Position:Full Stack Developer
-                                </p>
-                                <p class="p-2 mb-3 bg-dark text-white">
-                                    Phone: 2322555716
-                                </p>
+                                <h4 class="card-title">User Management Project</h4>
+                                <p class="card-text">A Spring MVC project performing all CRUD operations. Supports Registration, Login, View & Update details and Forget & Change Password.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#p1">More</button>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <h6 class="text-muted">Dates:2015 - 2017</h6>
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/User-Management-Project" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card ">
+                            <img class="card-img-top img-fluid" src="img/FeeManagement.PNG" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title">DevMasters</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, ducimus?</p>
-                                <p class="p-2 mb-3 bg-dark text-white">
-                                    Position:Full Stack Developer
-                                </p>
-                                <p class="p-2 mb-3 bg-dark text-white">
-                                    Phone: 2322555716
-                                </p>
+                                <h4 class="card-title">Fee Management Project</h4>
+                                <p class="card-text">A fee management application where admin can add/edit/view/delete accountant and accountant can add/view/edit/delete student, check due fee and logout.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#p2">More</button>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <h6 class="text-muted">Dates:2015 - 2017</h6>
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/Fee-Management-Project" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card ">
+                            <img class="card-img-top img-fluid" src="img/Omnifood.PNG" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title">DevMasters</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, ducimus?</p>
-                                <p class="p-2 mb-3 bg-dark text-white">
-                                    Position:Full Stack Developer
-                                </p>
-                                <p class="p-2 mb-3 bg-dark text-white">
-                                    Phone: 2322555716
-                                </p>
+                                <h4 class="card-title">OmniFood Website</h4>
+                                <p class="card-text">A responsive food delivery website project built using HTML5 and CSS3.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#p3">More</button>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <h6 class="text-muted">Dates:2015 - 2017</h6>
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/OmniFood" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                                <a href="https://rc2793.github.io/OmniFood/" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fab fa-chrome"> </i> &nbsp;Vist Website</a>
                             </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="card-deck">
+                        <div class="card ">
+                            <img class="card-img-top img-fluid" src="img/Riffels.PNG" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Riffels</h4>
+                                <p class="card-text">Riffels is a Responsive website built on Bootstrap4. (Learning Project) It's a Theme project.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#p4">More</button>
+                                </div>
+                            </div>
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/Riffels" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                                <a href="https://rc2793.github.io/Riffels/" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fab fa-chrome"> </i> &nbsp;Vist Website</a>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <img class="card-img-top img-fluid" src="img/SocialNET.PNG" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">SocialNET Website</h4>
+                                <p class="card-text">A simple bootstrap4 social website theme.(Learning project)</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#p5">More</button>
+                                </div>
+                            </div>
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/SocialNet" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                                <a href="https://rc2793.github.io/SocialNet/" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fab fa-chrome"> </i> &nbsp;Vist Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <a href="https://github.com/RC2793" target="_blank" type="button" class="btn btn-dark">My Github Repository &nbsp;<i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!---- MODALS----->
+
+            <div class="modal fade" id="p1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark text-white">
+                            <h2 class="modal-title">User Management Project</h2>
+                            <button class="close" data-dismiss="modal"><i class="fa fa-times text-white"></i></button>
+                        </div>
+                        <div class="modal-body py-0">
+                            <img src="img/UserManagment.PNG" alt="" class="img-fluid p-0 m-0">
+                            <p>A Spring MVC project performing all CRUD operations. </p><p>Supports Registration, Login, View & Update details and Forget & Change Password.</p>
+                            <p><b>Technologies used: </b>SpringMVC, JSP, MySQL DB and Apache Tomcat.</p>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <div class="card-footer " role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/User-Management-Project" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                            </div>
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="p2">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark text-white">
+                            <h2 class="modal-title">Fee Management Project</h2>
+                            <button class="close" data-dismiss="modal"><i class="fa fa-times text-white"></i></button>
+                        </div>
+                        <div class="modal-body py-0">
+                            <img src="img/FeeManagement.PNG" alt="" class="img-fluid p-0 m-0">
+                            <p>A fee management application where admin can add/edit/view/delete accountant and accountant can add/view/edit/delete student, check due fee and logout.</p>
+                            <p><b>Technologies used: </b>Servlet, HTML5, CSS, Bootstrap, Oracale 10g and Apache Tomcat.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="card-footer align-self-left" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/Fee-Management-Project" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                            </div>
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="p3">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark text-white">
+                            <h2 class="modal-title">OmniFood Website</h2>
+                            <button class="close" data-dismiss="modal"><i class="fa fa-times text-white"></i></button>
+                        </div>
+                        <div class="modal-body py-0">
+                            <img src="img/Omnifood.PNG" alt="" class="img-fluid p-0 m-0">
+                            <p>OmniFood is a responsive food delivery website project built using HTML5 and CSS3.</p>
+
+                            <p><b>Technologies used: </b> HTML5, CSS3 and Jquery</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/OmniFood" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                                <a href="https://rc2793.github.io/OmniFood/" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fab fa-chrome"> </i> &nbsp;Vist Website</a>
+                            </div>
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="p4">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark text-white">
+                            <h2 class="modal-title">Riffels</h2>
+                            <button class="close" data-dismiss="modal"><i class="fa fa-times text-white"></i></button>
+                        </div>
+                        <div class="modal-body py-0">
+                            <img src="img/Riffels.PNG" alt="" class="img-fluid p-0 m-0">
+                            <p>Riffels is a Responsive website built on Bootstrap4.(Learning Project).It can be used to showcase a product like a book.Its a website theme built using Bootstrap4</p>
+                            <p><b>Technologies used: </b>Bootstrap 4 and Jquery</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/Riffels" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                                <a href="https://rc2793.github.io/Riffels/" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fab fa-chrome"> </i> &nbsp;Vist Website</a>
+                            </div>
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="p5">
+                <div class="modal-dialog modal-lg"> 
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark text-white">
+                            <h2 class="modal-title">SocialNET</h2>
+                            <button class="close" data-dismiss="modal"><i class="fa fa-times text-white"></i></button>
+                        </div>
+                        <div class="modal-body py-0">
+                            <img src="img/SocialNET.PNG" alt="" class="img-fluid p-0 m-0">
+                            <p>SocialNET is a Responsive website built on Bootstrap4.(Learning Project).It's a Bootstrap4 Theme project.</p>
+                            <p><b>Technologies used: </b>Bootstrap 4 and Jquery</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="card-footer align-self-stretch" role="group" aria-label="Basic example">
+                                <a href="https://github.com/RC2793/SocialNet" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fa fa-code"> </i>     &nbsp;View Code</a>
+                                <a href="https://rc2793.github.io/SocialNet/" target="_blank" class="btn btn-dark btn-sm" role="button" aria-pressed="true"><i class="fab fa-chrome"> </i> &nbsp;Vist Website</a>
+                            </div>
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-----------WORK--------------->
-            
-                <div id="work" class="collapse">
-                    <div class="card card-body bg-warning py-5">
-                        <h3>My Portfolio</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, eos.</p>
-                    </div>
-                    <div class="card card-body py-5">
-                        <h3>What have I built?</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, asperiores.</p>
-                        <div class="row no-gutters">
-                            <div class="col-md-3">
-                                <img src="https://unsplash.it/200.jpg?image=251" alt="" class="img-fliud">
-                            </div>
-                            <div class="col-md-3">
-                                 <img src="https://unsplash.it/200.jpg?image=251" alt="" class="img-fliud">
-                            </div>
-                            <div class="col-md-3">
-                                 <img src="https://unsplash.it/200.jpg?image=251" alt="" class="img-fliud">
-                            </div>
-                            <div class="col-md-3">
-                                 <img src="https://unsplash.it/200.jpg?image=251" alt="" class="img-fliud">
-                            </div>
-                        </div>
-                    </div>
+
+
+
+            <!-- CONTACT -->
+            <div id="contact" class="collapse">
+                <div class="card card-body bg-danger text-white py-4">
+                    <h2>Contact Me</h2>
                 </div>
 
-
-             <!---- CONTACT----->
-             
-             <div id="contact" class="collapse">
-                 <div class="card card-body bg-danger text-white py-5">
-                     <h2>Contact</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ad.</p>
-                 </div>
-             </div>
-
+                <div class="card card-body py-5">
+                    <h3>Get in touch</h3>
+                    <br>
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"><i class="fa fa-envelope" onclick="window.location.href='mailto:rahul.chougule2793@gmail.com'"></i> <b>Email-Id:</b>&nbsp;</button>
+                        <button type="button" class="btn btn-outline-info">rahul.chougule2793@gmail.com</button>&nbsp; 
+                        <a class="d-inline" href="mailto:rahul.chougule2793@gmail.com" target="_blank">Mail me</a>
+                    </div>
+                    <br>
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"><i class="fa fa-envelope"></i> <b>Phone-No:</b>&nbsp;</button>
+                        <button type="button" class="btn btn-outline-info">+91-7676290805</button>
+                    </div>
+                    <br>
+                    <h5>
+                        <b>Social Links: &nbsp;</b>
+                        <a class="btn btn-lg" type="button" href="https://www.facebook.com/rahul.chougule.505" target="_blank"https://github.com/RC2793><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg" type="button" href="https://www.linkedin.com/in/rc2793/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg" type="button" href="https://github.com/RC2793" target="_blank"><i class="fab fa-github"></i></a>
+                    </h5>
+                </div>
+            </div>
 
             <!----FOOTER----->
 
