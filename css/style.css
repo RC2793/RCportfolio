@@ -53,3 +53,7 @@ h3, h2 {
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important; } }
+
+@media (min-width: 990px) {
+  .display-4 {
+    font-size: 250%; } }
