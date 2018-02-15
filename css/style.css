@@ -36,9 +36,9 @@ h3, h2 {
 #skills h3:after {
   display: block;
   height: 2px;
-  background-color: #007bff;
+  background-color: #3cc47c;
   content: " ";
-  width: 152px;
+  width: 355px;
   margin: 10px 0; }
 
 #skills .port-item {
@@ -49,6 +49,22 @@ h3, h2 {
     height: 60%;
     width: 60%;
     margin: 0 25%; }
+
+#projects h3:after {
+  display: block;
+  height: 2px;
+  background-color: #e9b000;
+  content: " ";
+  width: 310px;
+  margin: 10px 0; }
+
+#contact h3:after {
+  display: block;
+  height: 2px;
+  background-color: #e24e24;
+  content: " ";
+  width: 140px;
+  margin: 10px 0; }
 
 @media (min-width: 1199px) {
   .port-item {
